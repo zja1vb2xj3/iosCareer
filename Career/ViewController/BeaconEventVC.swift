@@ -8,11 +8,11 @@
 
 import UIKit
 
-class BeaconEventMainVC: UIViewController {
+class BeaconEventVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        print("beaconEventVC")
         // Do any additional setup after loading the view.
     }
 
