@@ -13,6 +13,9 @@
 		356BDEDD203129C800483C54 /* BeaconEventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356BDEDC203129C800483C54 /* BeaconEventVC.swift */; };
 		35732E462031169700AC13D4 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35732E452031169700AC13D4 /* MapVC.swift */; };
 		357B582F203A80BA00663628 /* BeaconEventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B582E203A80BA00663628 /* BeaconEventCell.swift */; };
+		357B5831203A8E1900663628 /* InfoMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B5830203A8E1900663628 /* InfoMainVC.swift */; };
+		357B5833203A984C00663628 /* Recruitment_InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B5832203A984C00663628 /* Recruitment_InfoVC.swift */; };
+		357B5835203A988300663628 /* Company_InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357B5834203A988300663628 /* Company_InfoVC.swift */; };
 		C4A8087B20282A27007D5812 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8087A20282A27007D5812 /* AppDelegate.swift */; };
 		C4A8087D20282A27007D5812 /* LoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4A8087C20282A27007D5812 /* LoadVC.swift */; };
 		C4A8088020282A27007D5812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4A8087E20282A27007D5812 /* Main.storyboard */; };
@@ -29,6 +32,9 @@
 		356BDEDC203129C800483C54 /* BeaconEventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconEventVC.swift; sourceTree = "<group>"; };
 		35732E452031169700AC13D4 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		357B582E203A80BA00663628 /* BeaconEventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconEventCell.swift; sourceTree = "<group>"; };
+		357B5830203A8E1900663628 /* InfoMainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoMainVC.swift; sourceTree = "<group>"; };
+		357B5832203A984C00663628 /* Recruitment_InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recruitment_InfoVC.swift; sourceTree = "<group>"; };
+		357B5834203A988300663628 /* Company_InfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company_InfoVC.swift; sourceTree = "<group>"; };
 		C4A8087720282A27007D5812 /* Career.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Career.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4A8087A20282A27007D5812 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C4A8087C20282A27007D5812 /* LoadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadVC.swift; sourceTree = "<group>"; };
@@ -68,6 +74,9 @@
 				35732E452031169700AC13D4 /* MapVC.swift */,
 				C4A8088F202949A3007D5812 /* MainVC.swift */,
 				356BDEDC203129C800483C54 /* BeaconEventVC.swift */,
+				357B5830203A8E1900663628 /* InfoMainVC.swift */,
+				357B5832203A984C00663628 /* Recruitment_InfoVC.swift */,
+				357B5834203A988300663628 /* Company_InfoVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -190,7 +199,10 @@
 				357B582F203A80BA00663628 /* BeaconEventCell.swift in Sources */,
 				C4A8088320282A27007D5812 /* Career.xcdatamodeld in Sources */,
 				C4A8087D20282A27007D5812 /* LoadVC.swift in Sources */,
+				357B5831203A8E1900663628 /* InfoMainVC.swift in Sources */,
+				357B5835203A988300663628 /* Company_InfoVC.swift in Sources */,
 				356BDEDD203129C800483C54 /* BeaconEventVC.swift in Sources */,
+				357B5833203A984C00663628 /* Recruitment_InfoVC.swift in Sources */,
 				C4A8087B20282A27007D5812 /* AppDelegate.swift in Sources */,
 				35732E462031169700AC13D4 /* MapVC.swift in Sources */,
 				C4A80890202949A3007D5812 /* MainVC.swift in Sources */,

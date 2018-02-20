@@ -8,11 +8,14 @@
 
 import UIKit
 
-class BeaconEventVC: UIViewController {
-
+class BeaconEventVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
+    @IBOutlet weak var beaconEventTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("beaconEventVC")
+        self.beaconEventTableView.delegate = self
+        self.beaconEventTableView.dataSource = self
         // Do any additional setup after loading the view.
     }
 
@@ -21,6 +24,27 @@ class BeaconEventVC: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "BeaconEventCell") as! BeaconEventCell
+        
+        cell.selectionStyle = UITableViewCellSelectionStyle.none
+        
+        cell.number.text = "01"
+        cell.logo.backgroundColor = UIColor.black
+        cell.title.text = "dd"
+        cell.content.text = "content"
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let InfoMainVC = self.storyboard?.instantiateViewController(withIdentifier: "InfoMainVC") as! InfoMainVC
+        self.navigationController?.pushViewController(InfoMainVC, animated: true)
+    }
 
     /*
     // MARK: - Navigation
